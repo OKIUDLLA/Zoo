@@ -1,0 +1,5 @@
+# Ukázkový web: nezobrazovat ve vyhledávačích
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
